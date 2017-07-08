@@ -1,0 +1,301 @@
+/*
+
+* {
+    margin: 0;
+    padding: 0;
+    color: red;
+}
+
+*/
+/*
+* {
+    border: red 1px solid;
+    
+}
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.boarder {
+    border: red 1px solid;
+}
+
+body {
+    color: #878787;
+    margin: 0;
+    font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+    /*
+    font-size: 1em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    */
+}
+
+.center-text {
+    text-align: center;
+}
+
+.main-header {
+    
+    height: 500px;
+/*
+    background: orange;
+    background-image: url(../img/mountains.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+*/
+    
+    background: orange url(../img/mountains.jpg) no-repeat center / cover;
+}
+
+.call-to-action {
+    font-size: 1.25em;
+    border-bottom: 5px solid;
+    padding: 0 9px 3px;
+    margin-top: 20px;
+    display: inline-block;  
+}
+
+/*
+.main-nav {
+    background: darkgreen;
+}
+.main-nav li {
+    display: inline-block;
+    color: white;
+    
+}
+*/
+
+h1 {
+    font-size: 62px;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 45px;
+    margin: .5em;
+}
+
+h3 { 
+    font-size: 20px;
+    color: #48525c;
+    margin: 1.7em;
+}
+
+
+#main-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: solid 5px orange;
+}
+
+.top-boarder {
+    border-top: 2px solid lightgrey;
+}
+
+.title {
+    color: white;
+    font-size: 22px;
+    padding-top: 12%;
+    display: inline-block;
+}
+
+ul {
+    padding: 0;
+}
+
+.boxed-links {
+    display: inline-block;
+    border: 3px solid #48525c;
+    margin: 5px auto;
+    padding: 10px;
+    width: 100%;
+}
+
+ul li a {
+    color: orange;
+}
+
+/*
+a:visited {
+    color: lightblue;
+}
+*/
+
+a {
+    color: orange;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: forestgreen;
+}
+
+a:active {
+    color: lightcoral;
+}
+
+a:focus {
+    color: white;
+    background: red;
+}
+
+.primary-content, .secondary-content, #main-footer, .title, .col-one, .col-two {
+    width: 90%;
+    max-width: 960px;
+    margin: auto;
+}
+
+.col-one, .col-two {
+    border: 1px solid red;
+    margin-bottom: 20px;
+}
+
+.col-one p, .col-two p {
+    padding-left: 2%;
+}
+
+div.col-one, div.col-two {
+    padding-left: 0;
+}
+
+.primary-content {
+    margin-top: 50px;
+}
+
+.col-img {
+    width: 100%;
+    padding: 0;
+    margin; 0;
+}
+
+.col-text {
+    background: orange;
+    color: white;
+    margin: 0;
+    padding: 30px;
+    margin-top: -10px;
+}
+
+
+.callout {
+    font-size: 1.25em;
+    border-bottom: 5px solid;
+    padding: 0 9px 3px;
+    margin-top: 20px;
+    display: inline-block;  
+}
+.wildlife {
+    color: white;
+    background: #434a52;
+    padding: 100px 50px;
+    border-top: 10px solid orange;
+    margin-top: 50px;
+    
+    background-image: url("../img/bear.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+
+}
+
+.three-col {
+    margin-bottom: 25px;
+}
+
+ .three-col-style {
+        margin-bottom: 50px;
+    }
+
+
+.main-footer {
+    background: #434a52;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.arrow {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+/*------ Floar Clear Fix --------*/
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media only screen and (min-width: 767px) {
+    
+    .two-col-container {
+        max-width: 960px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .col-one, .col-two {
+        width: 49%;
+        border: 1px solid red;
+        margin-bottom: 15px;
+    }
+
+    .col-one {
+        float: left;
+        padding-left: 1%;
+    }
+
+    .col-two {
+        float: right;
+        padding-left: 1%;
+    }
+    
+    .boxed-links {
+        width: 80%;
+    }
+
+     .three-col-style {
+        margin-bottom: 100px;
+    }
+    
+    .three-col-style p {
+        width: 80%;
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .three-col-style img {
+        width: 80%;
+        border-bottom: solid 9px orange;
+    }
+    
+    
+@media only screen and (min-width: 922px) {
+        
+    
+        .three-col-style p {
+            width: 90%;
+        }
+    
+        .three-col-style img {
+            width: 90%;    
+        }
+    
+        .three-col-style {
+            margin-bottom: 100px;
+            width: 33.33%;
+            float: left;
+        }
+    
+}
