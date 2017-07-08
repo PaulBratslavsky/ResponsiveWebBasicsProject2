@@ -205,7 +205,9 @@ div.col-one, div.col-two {
     background-image: url("../img/bear.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;  
+    
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, .8);
 
 }
 
@@ -246,7 +248,6 @@ div.col-one, div.col-two {
 
     .col-one, .col-two {
         width: 49%;
-        border: 1px solid red;
         margin-bottom: 15px;
     }
 
