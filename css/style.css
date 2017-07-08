@@ -16,10 +16,6 @@
 
 /* Web Fonts */
 
-@font-face {
-    font
-}
-
 * {
     box-sizing: border-box;
 }
@@ -84,7 +80,7 @@ body {
 */
 
 h1 {
-    font-size: 62px;
+    font-size: 50px;
     color: #ffffff;
     text-transform: uppercase;
     line-height: 1;
@@ -293,9 +289,13 @@ div.col-one, div.col-two {
         border-bottom: solid 9px orange;
     }
     
+}
     
-@media only screen and (min-width: 922px) {
-        
+@media only screen and (min-width: 1023px) {
+    
+        h1 {
+          font-size: 70px;  
+        }
     
         .three-col-style p {
             width: 90%;
