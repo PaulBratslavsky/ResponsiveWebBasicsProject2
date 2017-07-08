@@ -14,6 +14,12 @@
 }
 */
 
+/* Web Fonts */
+
+@font-face {
+    font
+}
+
 * {
     box-sizing: border-box;
 }
@@ -50,7 +56,13 @@ body {
 */
     
     background: orange url(../img/mountains.jpg) no-repeat center / cover;
-}
+    
+/*
+    background: linear-gradient(#faa949, transparent 90%),
+                linear-gradient(0deg, #fff, transparent),
+                orange url(../img/mountains.jpg) no-repeat center / cover;
+*/
+    }
 
 .call-to-action {
     font-size: 1.25em;
@@ -198,7 +210,7 @@ div.col-one, div.col-two {
 .wildlife {
     color: white;
     background: #434a52;
-    padding: 100px 50px;
+    padding: 10% 5%;
     border-top: 10px solid orange;
     margin-top: 50px;
     
