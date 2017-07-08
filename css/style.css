@@ -76,6 +76,7 @@ h1 {
     color: #ffffff;
     text-transform: uppercase;
     line-height: 1;
+    text-shadow: 2px 2px 1px #222;
 }
 
 h2 {
@@ -157,7 +158,6 @@ a:focus {
 }
 
 .col-one, .col-two {
-    border: 1px solid red;
     margin-bottom: 20px;
 }
 
